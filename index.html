@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Portfolio of Hosenur Jaman Jony - Network Engineer specializing in reliable and secure network infrastructure.">
+    <title>Hosenur Jaman Jony | Network Engineer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&family=Fira+Code:wght@400;500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="database.js"></script>
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <div id="canvas-container"></div>
+
+    <header class="header">
+        <nav class="nav container">
+            <a href="#" class="logo">Hosenur<span class="accent"></span></a>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <!-- Skills merged into About -->
+                <li><a href="#certifications">Certifications</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#resume" class="nav-btn">Resume</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero" class="hero container">
+            <h4 class="hero-prefix">Hi, my name is</h4>
+            <h1 class="hero-name">Hosenur Jaman Jony.</h1>
+            <h2 class="hero-subtitle">I build reliable networks.</h2>
+            <p class="hero-desc">
+                I am a Network Engineer specializing in designing, implementing, and securing complex network
+                infrastructures.
+                I make sure data flows where it needs to go, securely and efficiently.
+            </p>
+            <a href="#contact" class="btn btn-primary">Get In Touch</a>
+        </section>
+
+
+        <section id="about" class="section container">
+            <h2 class="section-title"><span class="section-number"></span> About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        Hello! My name is Hosenur and I enjoy ensuring systems communicate reliably. My interest in
+                        networking started when I set up my first home lab, trying to understand how the internet
+                        actually works.
+                    </p>
+                    <p>
+                        Fast-forward to today, and I've had the privilege of working on enterprise-grade networks,
+                        securing critical infrastructure, and optimizing data flows. My main focus these days is
+                        building accessible, inclusive, and secure network architectures.
+                    </p>
+                </div>
+                <div class="about-img">
+                    <div class="image-wrapper">
+                        <img src="assets/hossen1.png" alt="Profile" class="profile-pic">
+                    </div>
+                </div>
+            </div>
+
+            <h3 class="section-title" style="margin-top: 50px;"><span class="section-number"></span> Technical Skills
+            </h3>
+            <div class="skills-grid" id="skills-container">
+                <!-- Dynamic Content Loading... -->
+            </div>
+
+
+
+
+
+            <section id="certifications" class="section container">
+                <h2 class="section-title"><span class="section-number"></span> Certifications</h2>
+                <div class="skills-grid">
+                    <div class="skill-card">
+                        <h3>MikroTik Certified Network Associate</h3>
+                        <p>MTCNA</p>
+                    </div>
+                    <div class="skill-card">
+                        <h3>MikroTik Certified Routing Engineer</h3>
+                        <p>MTCRE</p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="experience" class="section container">
+                <h2 class="section-title"><span class="section-number"></span> Experience</h2>
+                <div class="jobs">
+                    <div class="job">
+                        <div class="job-header">
+                            <h3 class="job-title">Network Engineer <span class="company">@ One Sky Communications
+                                    Limited</span></h3>
+                            <span class="job-range">2025 - Present</span>
+                        </div>
+                        <ul class="job-desc">
+                            <li>Provide customer support, corporate technical support, field operations, and NOC
+                                monitoring
+                                for enterprise and ISP environments.</li>
+                            <li>Troubleshoot network issues, manage incidents, stabilize uptime, and handle SLA-driven
+                                support cases.</li>
+                            <li>Work on ticketing, escalation, service restoration, and coordination across support and
+                                call
+                                center operations.</li>
+                        </ul>
+                    </div>
+                    <!--<div class="job">
+                    <div class="job-header">
+                        <h3 class="job-title">Junior Network Admin <span class="company">@ NetSolutions</span></h3>
+                        <span class="job-range">2021 - 2023</span>
+                    </div>
+                    <ul class="job-desc">
+                        <li>Managed daily network operations including troubleshooting connectivity issues.</li>
+                        <li>Configured and maintained Cisco switches and routers.</li>
+                        <li>Assisted in the migration of on-premise infrastructure to AWS.</li>
+                    </ul>
+                </div> -->
+                </div>
+            </section>
+
+            <section id="resume" class="section container">
+                <h2 class="section-title"><span class="section-number"></span> Resume
+                </h2>
+                <p style="margin-bottom: 2rem; color: var(--text-color-secondary);">Check out my resume to see my full
+                    professional background.</p>
+                <a href="assets/Resume_of_Hosenur.pdf" class="btn btn-primary big-btn" target="_blank">Download CV</a>
+            </section>
+
+            <h3 class="section-title" style="margin-top: 50px;"><span class="section-number"></span> Photo Gallery</h3>
+            <div class="photo-gallery">
+                <div class="gallery-item"><img src="assets/hossen2.jpeg" alt="Working in server room"></div>
+                <div class="gallery-item"><img src="assets/hossen3.png" alt="Network monitoring"></div>
+                <div class="gallery-item"><img src="assets/hossen2.jpeg" alt="Analyzing data"></div>
+            </div>
+        </section>
+
+        <section id="contact" class="section container">
+            <h2 class="section-title"><span class="section-number"></span> What's Next?</h2>
+            <h2 class="contact-title">Get In Touch</h2>
+            <p class="contact-desc">
+                I'm currently looking for new opportunities. Whether you have a question or just want to say hi, I'll
+                try my best to get back to you!
+            </p>
+            <a href="https://www.linkedin.com/in/ahmed-hossen-470a9339a/" class="btn btn-primary big-btn">Say Hello</a>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <p>Designed & Built by Hosenur Jaman Jony</p>
+    </footer>
+</body>
+
+</html>

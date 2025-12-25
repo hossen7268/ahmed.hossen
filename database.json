@@ -1,0 +1,60 @@
+{
+  "hero": {
+    "prefix": "Hi, my name is",
+    "name": "Hosenur Jaman Jony.",
+    "subtitle": "I build reliable networks.",
+    "desc": "I am a Network Engineer specializing in designing, implementing, and securing complex network infrastructures. I make sure data flows where it needs to go, securely and efficiently."
+  },
+  "about": {
+    "text1": "Hello! My name is Hosenur and I enjoy ensuring systems communicate reliably. My interest in networking started when I set up my first home lab, trying to understand how the internet actually works.",
+    "text2": "Fast-forward to today, and I've had the privilege of working on enterprise-grade networks, securing critical infrastructure, and optimizing data flows. My main focus these days is building accessible, inclusive, and secure network architectures.",
+    "tech_intro": "Here are a few technologies I've been working with recently:",
+    "tech_list": [
+      "Cisco IOS/NX-OS",
+      "Juniper Junos",
+      "Python (Automation)",
+      "AWS Networking",
+      "Firewalls (Palo Alto, Fortinet)",
+      "Linux Admin"
+    ],
+    "image": "photo1.png"
+  },
+  "skills": [
+    { "category": "Networking", "details": "Routing & Switching (OSPF, BGP, VLANs), MPLS, VPNs, SD-WAN", "percent": 90 },
+    { "category": "Security", "details": "Firewall Configuration, IDS/IPS, ACLs, IPsec, VPN", "percent": 85 },
+    { "category": "Cloud & DevOps", "details": "AWS VPC, Azure VNet, Docker, Ansible, Terraform", "percent": 80 },
+    { "category": "Tools", "details": "Wireshark, GNS3, Puppet, SolarWinds, Nagios", "percent": 95 }
+  ],
+  "certifications": [
+    { "title": "Cisco", "details": "CCNA, CCNP Enterprise" },
+    { "title": "Juniper", "details": "JNCIA-Junos" },
+    { "title": "Cloud", "details": "AWS Certified Solutions Architect – Associate" }
+  ],
+  "experience": [
+    {
+      "title": "Network Engineer",
+      "company": "@ TechCorp",
+      "range": "2023 - Present",
+      "desc": [
+        "Designed and implemented a redundant network architecture affecting 500+ users.",
+        "Reduced network downtime by 20% through proactive monitoring using SolarWinds.",
+        "Automated configuration backups using Python and Ansible."
+      ]
+    },
+    {
+      "title": "Junior Network Admin",
+      "company": "@ NetSolutions",
+      "range": "2021 - 2023",
+      "desc": [
+        "Managed daily network operations including troubleshooting connectivity issues.",
+        "Configured and maintained Cisco switches and routers.",
+        "Assisted in the migration of on-premise infrastructure to AWS."
+      ]
+    }
+  ],
+  "gallery": ["photo2.png", "photo3.png", "photo4.png"],
+  "contact": {
+    "desc": "I'm currently looking for new opportunities. Whether you have a question or just want to say hi, I'll try my best to get back to you!",
+    "email": "hosenur.jaman.jony@example.com"
+  }
+}
